@@ -1,4 +1,4 @@
-# simpleSort- a faster selectionSort variation.
+#simpleSort- a faster selectionSort variation.
 
 Algorithm:
 
