@@ -1,6 +1,4 @@
-/*
-   SimpleSort - A modified & faster selectionSort
-*/
+//simpleSort - A modified & faster selectionSort variation
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -18,7 +16,7 @@ void simpleSort(int arr[], int arrSize){
         maxElem = minElem = arr[left];
         minElemIndex = maxElemIndex = left;
 
-        //1. iterate array to find index of min and max elements
+        //1. iterate array to find the min and max elements & their indices
         for(int i = left; i<= right; i++){
             if(arr[i] >= maxElem){
                 maxElem = arr[i];
