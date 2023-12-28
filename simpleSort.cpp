@@ -28,7 +28,7 @@ void simpleSort(int arr[], int arrSize){
             }
         }
 
-        //2. swap the min and max elements with leftmost and rightmost elems (for sorting in ascending order)
+        //2. swap the min and max elements with leftmost and rightmost elements 
         if(left == maxElemIndex && right == minElemIndex){
             /*here if we do 2 swaps then both swaps will nullify each other*/
             swap(arr[left], arr[minElemIndex]);
