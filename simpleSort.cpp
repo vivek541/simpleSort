@@ -13,12 +13,10 @@ void simpleSort(int arr[], int arrSize){
     int right = arrSize-1;
 
     int maxElem, minElem, maxElemIndex, minElemIndex;
+    maxElem = minElem = arr[left];
+    minElemIndex = maxElemIndex = left;
 
     while(left < right){
-
-        /*setting default value for max and min in the array*/
-        maxElem = minElem = arr[left];
-        minElemIndex = maxElemIndex = left;
 
         //1. iterate array to find the min and max elements & their indices
         for(int i = left; i<= right; i++){
