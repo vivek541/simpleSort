@@ -1,4 +1,8 @@
-//simpleSort - A modified & faster selectionSort variation
+/*
+ * Author: VivekPrasad
+ * Date: December 29, 2023
+ * Purpose: A modified & faster selectionSort variation
+ */
 #include<bits/stdc++.h>
 using namespace std;
 
